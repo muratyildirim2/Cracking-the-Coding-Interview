@@ -30,7 +30,7 @@ string urlify2(char * str,int len)
 string newstring="";
 
     for ( int i = 0; i < len; ++i ) {
-        if (str[i] == ' ') {      // if there is a space, we have to add "%20" newstring. 
+        if (str[i] == ' ') {      // if there is a space, we have to add "%20" to newstring. 
            
                newstring+="%20";
             }
